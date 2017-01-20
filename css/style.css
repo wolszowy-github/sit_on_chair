@@ -12,6 +12,7 @@
     /* Likely future */
 }
 
+
 @font-face {
     font-family: 'ralewaybold';
     src: url('../fonts/raleway-bold.woff2') format('woff2'), url('../fonts/raleway-bold.woff') format('woff');
@@ -32,15 +33,17 @@ header {
 
 .center {
     margin: 0 auto;
-    width: 1100px;
-    /*        border: 1px solid red;*/
+    width: 1110px;
 }
 
 .upper {
     background-color: black;
+    min-width: 1110px;
     width: 100%;
     color: white;
     position: relative;
+    margin: 0;
+    
 }
 
 .dropdown {
@@ -127,14 +130,17 @@ nav,
     background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(239, 239, 239, 1) 63%, rgba(230, 230, 230, 1) 86%, rgba(237, 237, 237, 1) 100%);
     background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(239, 239, 239, 1) 63%, rgba(230, 230, 230, 1) 86%, rgba(237, 237, 237, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
+    min-width: 1110px;
     width: 100%;
     height: 450px;
     padding-top: 10px;
+    margin: 0 auto;
 }
 
 .carousel>div {
     position: relative;
-    height: 450px;
+    height: 440px;
+    margin: 0 auto;
 }
 
 .car_arrow_left,
@@ -219,12 +225,7 @@ nav,
     border-radius: 15px;
 }
 
-.art1 {
-    width: 100%;
-}
-
 .art1>div {
-    width: 1100px;
     margin-top: 30px;
     margin-bottom: 50px;
     font-family: 'ralewayregular';
@@ -236,7 +237,7 @@ nav,
     height: 225px;
     background-size: cover;
     margin-top: 0;
-    margin-right: 54.5px;
+    margin-right: 60.5px;
     border: 1px solid #C2C2C2;
 }
 
@@ -246,7 +247,7 @@ nav,
     height: 225px;
     background-size: cover;
     margin-top: 0;
-    margin-right: 54.5px;
+    margin-right: 60.5px;
     border: 1px solid #C2C2C2;
 }
 
@@ -294,11 +295,7 @@ nav,
 
 .art2 {
     background-color: #F1F1F1;
-    width: 100%;
-}
-
-.art2 > div {
-    width: 1100px;
+    min-width: 1110px;
 }
 
 .priceHead {
@@ -451,6 +448,16 @@ nav,
 }
 
 #boxSelected3 {
+    background-color: white;
+}
+
+#boxSelected4{
+    color: white;
+    background-color: #27C7AB;
+}
+
+#boxSelected5{
+    color: #27C7AB;
     background-color: white;
 }
 
